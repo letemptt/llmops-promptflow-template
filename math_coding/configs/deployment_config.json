@@ -3,12 +3,12 @@
         {
             "ENV_NAME": "dev",
             "TEST_FILE_PATH": "sample-request.json",
-            "ENDPOINT_NAME": "",
+            "ENDPOINT_NAME": "gpt-35-turbo",
             "ENDPOINT_DESC": "An online endpoint serving a flow for math coding flow",
             "DEPLOYMENT_DESC": "prompt flow deployment",
             "PRIOR_DEPLOYMENT_NAME": "",
             "PRIOR_DEPLOYMENT_TRAFFIC_ALLOCATION": "",
-            "CURRENT_DEPLOYMENT_NAME": "",
+            "CURRENT_DEPLOYMENT_NAME": "gpt-35-turbo",
             "CURRENT_DEPLOYMENT_TRAFFIC_ALLOCATION": "100",
             "DEPLOYMENT_VM_SIZE": "Standard_F4s_v2",
             "DEPLOYMENT_INSTANCE_COUNT": 1,
@@ -21,18 +21,18 @@
         {
             "ENV_NAME": "dev",
             "TEST_FILE_PATH": "sample-request.json",
-            "ENDPOINT_NAME": "",
+            "ENDPOINT_NAME": "gpt-35-turbo",
             "ENDPOINT_DESC": "An kubernetes endpoint serving a flow for math coding",
             "DEPLOYMENT_DESC": "prompt flow deployment",
             "PRIOR_DEPLOYMENT_NAME": "",
             "PRIOR_DEPLOYMENT_TRAFFIC_ALLOCATION": "",
-            "CURRENT_DEPLOYMENT_NAME": "",
+            "CURRENT_DEPLOYMENT_NAME": "gpt-35-turbo",
             "CURRENT_DEPLOYMENT_TRAFFIC_ALLOCATION": 100,
-            "COMPUTE_NAME": "",
+            "COMPUTE_NAME": "tll0513vm",
             "DEPLOYMENT_VM_SIZE": "promptinstancetype",
             "DEPLOYMENT_INSTANCE_COUNT": 1,
-            "CPU_ALLOCATION": "",
-            "MEMORY_ALLOCATION": "",
+            "CPU_ALLOCATION": "2",
+            "MEMORY_ALLOCATION": "4",
             "ENVIRONMENT_VARIABLES": {
                 "example-name": "example-value"
             }
@@ -43,13 +43,13 @@
             "ENV_NAME": "dev",
             "TEST_FILE_PATH": "sample-request.json",
             "CONNECTION_NAMES": ["aoai"],
-            "REGISTRY_NAME": "",
-            "REGISTRY_RG_NAME": "",
-            "APP_PLAN_NAME": "",
-            "WEB_APP_NAME": "",
-            "WEB_APP_RG_NAME": "",
+            "REGISTRY_NAME": "tllaoaicr0513",
+            "REGISTRY_RG_NAME": "rg-tll-tf-deploy-demo",
+            "APP_PLAN_NAME": "tllaoaiappplan0513",
+            "WEB_APP_NAME": "tllaoaiappplan0513",
+            "WEB_APP_RG_NAME": "rg-tll-tf-deploy-demo",
             "WEB_APP_SKU": "B3",
-            "USER_MANAGED_ID": ""
+            "USER_MANAGED_ID": "tllllmopsdev"
             
         }
     ]
